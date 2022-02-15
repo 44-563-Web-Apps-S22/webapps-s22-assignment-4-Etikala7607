@@ -1,0 +1,55 @@
+.speech{
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+}
+.direction{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color:lightcyan;
+}
+.direction:hover{
+    color:brown;
+}
+.OFF{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+    color:rgb(129, 129, 20);
+    width: fit-content;
+}
+.HAR{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: blue;
+}
+.table,
+td{
+  border: 1px solid black;
+  border-collapse: collapse;  
+  text-align: left;
+  color: red;
+  padding: 8px;
+  margin: 10px;
+}
+th{
+  border: 2px solid black;
+  text-align: center;
+  background-color: bisque;
+  padding: 5px;
+  margin: 10px;
+}
+tr:nth-child(even) {
+    background-color: lightblue;
+  }  
+  
+  .name:hover{
+      text-shadow: 2px 2px 5px red;
+      color: teal;
+      filter: pink(3px);
+      border: double 2px black;
+      text-shadow: 0 0 2px gold;
+  }   
+  
+  
+    
+    
