@@ -49,7 +49,27 @@ tr:nth-child(even) {
       border: double 2px black;
       text-shadow: 0 0 2px gold;
   }   
-  
+  ul.navbar-horizontal{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navbar-horizontal li{
+    float:left; 
+    color:#000;
+    background-color:yellow;
+}
+ul.navbar-horizontal a {
+    display:block;
+    padding:8px;
+}
+ul.navbar-horizontal a:hover {  
+    background-color: #555;
+    color:white;
+}
+.icon{
+    float:right;
+}
   
     
     
